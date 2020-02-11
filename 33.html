@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Тест</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <div id="app">
+        <span @click="changetxt">Тык</span>
+        <p>{{title}}</p>
+        <p :class="stylecss">Цвет: {{stylecss}}</p>
+        <input type="text" @input="stylecss = $event.target.value">
+        <input type="text" @input="increment ($event.target.value)">
+        <p>{{value}}</p>
+        <p>{{doublevalue}}</p>
+        <button @click="show = !show">Скрыть / Показать</button>
+        <p v-if="show">Invisible</p>
+        <p v-else>Invisible253</p>
+    </div>
+</body>
+    <script src="js/main.js"></script>
+</html>

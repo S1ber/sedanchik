@@ -1,0 +1,22 @@
+.grey {
+    background: grey;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.pink{
+    background: pink;
+}
+
+.blue{
+    background: blue;
+}
+#app{
+    color:rgb(212, 210, 238);
+}
+#zagolovok{
+    font-size: large;
+
+}
