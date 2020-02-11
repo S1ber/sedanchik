@@ -16,6 +16,10 @@
 #app{
     color:rgb(212, 210, 238);
 }
+#app a{
+    text-decoration: none;
+    color: rgb(212, 210, 238);
+}
 #zagolovok{
     font-size: large;
 
