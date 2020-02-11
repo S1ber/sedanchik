@@ -5,6 +5,11 @@ new Vue({
         stylecss:'',
         value: 1,
         show: false,
+        message:"",
+        mail:"",
+        pass:"",
+        log:"",
+        showmessages:false,
 
     },
     methods:{

@@ -1,0 +1,46 @@
+#zagolovok{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+#register{
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    background: grey;
+    border-color:rgb(24, 26, 27);
+    width: 350px;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    opacity: 0.5;
+    outline: none;
+}
+input:-ms-input-placeholder      {color:#ffffff;}
+input:-moz-placeholder           {color:#ffffff;}
+input::-moz-placeholder          {color:#ffffff;}
+input::-webkit-input-placeholder {color:#ffffff;}
+button{
+    font-size: 50px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: grey;
+    border: grey;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+    width: 300px;
+    padding: 30px;
+    outline: none;
+    cursor: pointer;
+    transition: .05s ease-in;
+}
+button:hover{
+    background:rgb(90, 84, 84);
+    border: 2px solid rgb(67, 67, 75);
+    transform: scale(0.95);
+
+}

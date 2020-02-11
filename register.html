@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Тест</title>
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/register.css" type="text/css">
 </head>
 <body>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -11,10 +11,10 @@
         <p id="zagolovok">NKVD</p>
     </div>
     <div id="register">
-        <input placeholder="Login" type="text">
-        <p><input placeholder="Password" type="password"></p>
+        <input placeholder="Login" v-model="log" type="text">
+        <p><input placeholder="Password" v-model="pass" type="password"></p>
         <p><input placeholder="Confirm Password" type="password"></p>
-        <p><input placeholder="Email" type="email"></p>
+        <p><input placeholder="Email" v-model="mail" type="email"></p>
         <button @click="Зарегистрировались">Register</button>
     </div>
 </body>

@@ -14,8 +14,12 @@
         <p><a href="file:///C:/Users/hrhhh/Desktop/site/sedanchik/login.html">Вход</a></p>
         <p><a href="file:///C:/Users/hrhhh/Desktop/site/sedanchik/register.html">Регистрация</a></p>
         <p><a href="https://yandex.ru/news/?clid=2270456&win=417">Новости</a></p>
-        <p><a href="https://hackergroup.tk/poll">Сообщения</a></p>
-        <p><a href="https://hackergroup.tk/about">О нас</a></p>
+        <button @click="showmessages = !showmessages">Сообщения</button>
+        <p><a href="https://hackergroup.tk/about">О нас</a></p>        
+    </div>
+    <div id="mes">
+        <span v-if="showmessages">Вася Пупкин</span>
+        <span v-if="showmessages">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </span>
     </div>
 </body>
     <script src="js/main.js"></script>
